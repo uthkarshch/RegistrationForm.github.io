@@ -3,7 +3,7 @@ function fnamevalidity(e1) {
     var fnameReturn = false;
     var fnameEl = document.getElementById("fname");
     if (fnameEl.value == null || fnameEl.value == "") {
-        fnameEl.style.borderColor = "red";
+        fnameEl.style.borderColor = "red"; 
         document.getElementById("fnameMessage").innerHTML = "First Name can\'t be empty";
     }
     var x=e1.which || e1.keyCode || window.e1;
